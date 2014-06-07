@@ -179,6 +179,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
 	hwaddrs
 
+PRODUCT_PACKAGES += \
+	libxml2
+
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
 	rild.libpath=/vendor/lib/libril-qc-qmi-1.so
 
