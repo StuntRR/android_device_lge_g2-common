@@ -128,7 +128,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
 	ro.telephony.call_ring.multiple=0
 
 PRODUCT_PROPERTY_OVERRIDES += \
-	ro.telephony.ril_class=LgeLteRIL
+	ro.telephony.ril_class=LgeLteRIL \
+	ro.telephony.ril.v3=qcomdsds
 
 #Upto 3 layers can go through overlays
 PRODUCT_PROPERTY_OVERRIDES += persist.hwc.mdpcomp.enable=true
