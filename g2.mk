@@ -74,6 +74,10 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/gps.conf:system/etc/gps.conf \
     $(LOCAL_PATH)/izat.conf:system/etc/izat.conf
 
+# IRSC
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/sec_config:system/etc/sec_config
+
 PRODUCT_PACKAGES += \
     charger_res_images \
     charger
