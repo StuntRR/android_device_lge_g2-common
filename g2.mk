@@ -165,6 +165,9 @@ PRODUCT_PACKAGES += \
 	camera.g2
 
 PRODUCT_PACKAGES += \
+	power.msm8974
+
+PRODUCT_PACKAGES += \
 	audio_policy.default \
 	audio.primary.msm8974 \
 	audio.a2dp.default \
