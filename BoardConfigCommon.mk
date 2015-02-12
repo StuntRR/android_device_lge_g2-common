@@ -64,7 +64,7 @@ WIFI_DRIVER_FW_PATH_PARAM   := "/sys/module/bcmdhd/parameters/firmware_path"
 WIFI_DRIVER_FW_PATH_STA     := "/system/etc/firmware/fw_bcmdhd.bin"
 WIFI_DRIVER_FW_PATH_AP      := "/system/etc/firmware/fw_bcmdhd_apsta.bin"
 
-BOARD_EGL_CFG := device/lge/g2-common/egl.cfg
+BOARD_EGL_CFG := device/lge/g2-common/configs/egl.cfg
 
 USE_OPENGL_RENDERER := true
 TARGET_USES_ION := true
@@ -82,7 +82,7 @@ TARGET_FORCE_HWC_FOR_VIRTUAL_DISPLAYS := true
 USE_DEVICE_SPECIFIC_CAMERA := true
 
 RECOVERY_FSTAB_VERSION = 2
-TARGET_RECOVERY_FSTAB = device/lge/g2-common/fstab.g2
+TARGET_RECOVERY_FSTAB = device/lge/g2-common/rootdir/etc/fstab.g2
 BOARD_USE_CUSTOM_RECOVERY_FONT := \"roboto_23x41.h\"
 TARGET_RECOVERY_PIXEL_FORMAT := "RGBX_8888"
 BOARD_HAS_NO_SELECT_BUTTON := true
@@ -114,7 +114,7 @@ BOARD_HARDWARE_CLASS := device/lge/g2-common/cmhw/
 include device/qcom/sepolicy/sepolicy.mk
 
 BOARD_SEPOLICY_DIRS += \
-        device/lge/g2-common/sepolicy
+    device/lge/g2-common/sepolicy
 
 BOARD_RIL_CLASS := ../../../device/lge/g2-common/ril/
 
