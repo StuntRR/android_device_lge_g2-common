@@ -149,6 +149,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
 #Upto 3 layers can go through overlays
 PRODUCT_PROPERTY_OVERRIDES += persist.hwc.mdpcomp.enable=true
 
+# Camera
+PRODUCT_PROPERTY_OVERRIDES += \
+	camera2.portability.force_api=1
+
 PRODUCT_TAGS += dalvik.gc.type-precise
 
 PRODUCT_PACKAGES += \
