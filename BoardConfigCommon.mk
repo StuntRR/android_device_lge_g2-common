@@ -44,6 +44,7 @@ BOARD_KERNEL_SEPARATED_DT := true
 
 TARGET_REQUIRES_BUMP := true
 
+BOARD_CUSTOM_BOOTIMG := true
 BOARD_CUSTOM_BOOTIMG_MK := device/lge/g2-common/releasetools/mkbootimg.mk
 TARGET_KERNEL_SOURCE := kernel/lge/msm8974
 
