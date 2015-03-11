@@ -168,6 +168,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libxml2
 
+PRODUCT_PACKAGES += \
+    libcnefeatureconfig
+
 # Prepatch to fix BT/WiFi bus lockups
 PRODUCT_COPY_FILES += device/lge/g2-common/bluetooth/bcm4335_prepatch.hcd:system/vendor/firmware/bcm4335_prepatch.hcd
 
