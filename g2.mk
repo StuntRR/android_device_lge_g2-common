@@ -34,7 +34,6 @@ PRODUCT_COPY_FILES += \
     frameworks/av/media/libstagefright/data/media_codecs_google_video.xml:system/etc/media_codecs_google_video.xml
 
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/thermald.conf:system/etc/thermald.conf \
     $(LOCAL_PATH)/configs/thermal-engine-8974.conf:system/etc/thermal-engine-8974.conf
 
 PRODUCT_COPY_FILES += \
