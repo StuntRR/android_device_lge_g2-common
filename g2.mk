@@ -160,7 +160,7 @@ PRODUCT_PACKAGES += \
     libc2dcolorconvert
 
 PRODUCT_PACKAGES += \
-    libloc_adapter
+    gps.msm8974
 
 PRODUCT_PACKAGES += \
     hwaddrs
