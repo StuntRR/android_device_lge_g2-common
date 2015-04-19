@@ -125,8 +125,8 @@ BOARD_RIL_CLASS := ../../../device/lge/g2-common/ril/
 COMMON_GLOBAL_CFLAGS += -DBOARD_CHARGING_CMDLINE_NAME='"androidboot.mode"' -DBOARD_CHARGING_CMDLINE_VALUE='"chargerlogo"'
 BOARD_USES_QC_TIME_SERVICES := true
 
-# Use CM PowerHAL by default
-TARGET_POWERHAL_VARIANT := cm
+# Use QCOM PowerHAL by default
+TARGET_POWERHAL_VARIANT := qcom
 
 # Shader cache config options
 # Maximum size of the  GLES Shaders that can be cached for reuse.
