@@ -128,6 +128,9 @@ BOARD_USES_QC_TIME_SERVICES := true
 # Use QCOM PowerHAL by default
 TARGET_POWERHAL_VARIANT := qcom
 
+# Needed to build libbinder symbol for RIL http://review.cyanogenmod.org/#/c/93214
+TARGET_RELEASE_CPPFLAGS += -DNEEDS_LGE_RIL_SYMBOLS
+
 # Shader cache config options
 # Maximum size of the  GLES Shaders that can be cached for reuse.
 # Increase the size if shaders of size greater than 12KB are used.
