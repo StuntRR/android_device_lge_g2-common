@@ -64,6 +64,10 @@ PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
     persist.sys.usb.config=mtp \
     persist.sys.isUsbOtgEnabled=true
 
+# QCOM Perf lib
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.vendor.extension_library=/vendor/lib/libqti-perfd-client.so
+
 # Camera
 PRODUCT_PROPERTY_OVERRIDES += \
     camera2.portability.force_api=1
