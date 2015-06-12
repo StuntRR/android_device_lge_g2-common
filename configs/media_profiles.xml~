@@ -187,6 +187,8 @@
         </EncoderProfile>
         -->
 
+<<<<<<< HEAD
+=======
         <EncoderProfile quality="2160p" fileFormat="mp4" duration="30">
             <Video codec="h264"
                    bitRate="40000000"
@@ -199,6 +201,7 @@
                    channels="2" />
         </EncoderProfile>
 
+>>>>>>> 3268fde... Configs: media_profile: Increases the 4k bitrate (thx: xdabbeb)
         <EncoderProfile quality="timelapseqcif" fileFormat="mp4" duration="30">
             <Video codec="h264"
                    bitRate="192000"
@@ -413,10 +416,19 @@
          or query the capabilities of the codec at all if it is disabled
     -->
     <VideoEncoderCap name="h264" enabled="true"
+<<<<<<< HEAD
+        minBitRate="128000" maxBitRate="40000000"
+        minFrameWidth="176" maxFrameWidth="1920"
+        minFrameHeight="144" maxFrameHeight="1080"
+        minFrameRate="15" maxFrameRate="60"
+        maxHFRFrameWidth="1920" maxHFRFrameHeight="1080"
+        maxHFRMode="60"  />
+=======
         minBitRate="128000" maxBitRate="60000000"
         minFrameWidth="176" maxFrameWidth="3840"
         minFrameHeight="144" maxFrameHeight="2160"
         minFrameRate="15" maxFrameRate="120" />
+>>>>>>> 3268fde... Configs: media_profile: Increases the 4k bitrate (thx: xdabbeb)
 
     <VideoEncoderCap name="h263" enabled="true"
         minBitRate="64000" maxBitRate="8000000"
