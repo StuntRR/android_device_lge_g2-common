@@ -231,11 +231,6 @@ on post-fs-data
     # time_daemon storage
     mkdir /data/time/ 0700 system system
 
-    # Tap to wake
-     chown system radio /sys/devices/virtual/input/lge_touch/touch_gesture
-     chmod 0664 /sys/devices/virtual/input/lge_touch/touch_gesture
-     write /sys/devices/virtual/input/lge_touch/touch_gesture 1
-
     # Enable Power modes and set the CPU Freq Sampling rates
     write /sys/module/lpm_resources/enable_low_power/l2 2
     write /sys/module/lpm_resources/enable_low_power/pxo 1
